@@ -1,19 +1,17 @@
-# MyUnwedding — California Preview v0.3
+# MyUnwedding v0.4 — California Preview
 
-A static, client-side prototype for GitHub Pages.
+Static, single-file prototype for GitHub Pages. Upload `index.html` to the root of your repository. Enable **Settings → Pages → Deploy from branch → main / (root)**.
 
-## Publish
-1. Create a GitHub repository (for example `myunwedding`).
-2. Upload `index.html` to the repository root.
-3. Go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save.
-4. Wait for GitHub to publish the site at `https://YOUR-USERNAME.github.io/myunwedding/`.
+## What changed
+- Clearer browser/social link titles and descriptions (no social image yet)
+- Five-section navigation instead of duplicate tab/button systems
+- Planner actions grouped above divider; duplicate progress badge removed
+- Eyebrow labels and illustrative right-to-left 30/60/90/90+ visual
+- Directory and Nook results hidden until category selected
+- Nook comfort prompt updated; Stories & Community category and a copy-only recommendation box
+- Existing local-save data key retained to preserve saved plans on the same origin
 
-## What works
-- Conditional California intake and personalized checklist, timeline, budget, support categories
-- Optional device-only local saving; no account or server
-- Support Team directory browsing and user-added professionals
-- The Nook resource browsing, bookmarks, and scripted conversation demonstrations
-- Browser Print / Save as PDF
+## Important limitations
+This is a prototype, not a production service. The Nook Companion is scripted, not AI. The recommendation box copies text only; it does not submit anything. The illustrative timeline does not represent legal deadlines. No analytics provider is installed and no activity is transmitted. There are no user accounts, secure server-side storage, referral introductions, or real PDF generator (the browser print dialog offers Save as PDF). Local browser storage is not safe on shared or monitored devices. Third-party directories and social communities are not endorsements and should be reviewed before public launch.
 
-## Not production-ready
-No live AI, secure cloud account, lead capture, verified provider matching, or backend analytics. The scripted Companion is not AI. The directory registry contains candidate sources, not endorsements. User-entered data can remain on the device if local saving is enabled; this may be unsafe on shared/monitored devices. Obtain legal, privacy, safety and accessibility review before public promotion.
+See `TESTING_PLAN.md` for scenarios and acceptance criteria.
